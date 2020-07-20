@@ -29,6 +29,12 @@ print(next(infinite)) #0
 print(next(infinite)) #1
 print(next(infinite)) #2
 
+# TODO:
+# When python yield statement is hit, the program suspends function execution and returns the yielded
+# value to the caller. (In contrast, return stops function execution completely.)
+# When the function is suspended, the state of that function is saved. This includes any variable bindings
+# to the local variable, exception handling, internal stack etc.
+
 # what happens when a generator is exhausted
 # they will raise 'StopIteration' Expression
 def finite_sequence():
